@@ -1,0 +1,96 @@
+body {
+    background-color: #f3ddd4;
+    color: #1a0707;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    color: #06503d;
+    text-align: center;
+}
+
+.navbar {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+.navbar .logo {
+    font-family: cursive;
+}
+.navbar .others {
+    background-color: aquamarine;
+    font-size: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #06503d;
+}
+
+.navbar a:hover {
+    color: #133b3a;
+    font-weight: bold;
+}
+
+.container-100 {
+    background-color: rgb(255, 0, 170);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* .plant-img {
+    width: 25%;
+} */
+
+.img-only-100 {
+    width: 100%; 
+}
+
+.img-plus-text-25 {
+   background-color: aqua;
+   width: 25%;
+   text-align: center;
+}
+
+.linksbar {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    width: 70%;
+
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+.linksbar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #06503d;
+}
+
+.linksbar a:hover {
+    color: #133b3a;
+    font-weight: bold;
+}
+

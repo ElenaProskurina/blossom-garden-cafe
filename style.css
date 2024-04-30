@@ -10,8 +10,10 @@ h1 {
     text-align: center;
 }
 
+
+
 .navbar {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50px;
     display: flex;
     /* justify-content: flex-end; */
@@ -23,35 +25,42 @@ h1 {
     align-items: center;
 }
 
-.navbar .logo {
+.logo {
     font-family: cursive;
 }
 .navbar .others {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     font-size: 40%;
     width: 50%;
     display: flex;
     justify-content: right;
 }
 
-.navbar a {
+.navbar a, .logo a {
     text-decoration: none;
     font-size: 30px;
     color: #06503d;
     margin-left: 30px;    
 }
 
-.navbar a:hover {
+.navbar a:hover, .logo a:hover {
     color: #133b3a;
     font-weight: bold;
 }
 
 .container-100 {
-    background-color: rgb(255, 0, 170);
+    /* background-color: rgb(255, 0, 170); */
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.container-80 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;   
 }
 
 /* .plant-img {
@@ -69,10 +78,10 @@ h1 {
 }
 
 .linksbar {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50px;
     display: flex;
-    width: 70%;
+    width: 500px;
 
     /* justify-content: flex-end; */
     /* justify-content: flex-start; */
@@ -85,7 +94,7 @@ h1 {
 
 .linksbar a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #06503d;
 }
 

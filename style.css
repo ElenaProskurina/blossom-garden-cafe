@@ -43,11 +43,29 @@ h1 {
     font-weight: bold;
 }
 
+.plant-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.plant-box {
+   /* background-color: aqua; */
+   width: 200px;
+   text-align: center;
+   color: #133b3a;
+   font-weight: bold;
+   /* border-style: solid;
+   border-radius: 5%;
+   border-width: 2pt;
+   border-color: #1a0707; */
+   margin: 10px;
+}
+
 .container-100 {
     /* background-color: rgb(255, 0, 170); */
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 100%;
 }
 
@@ -58,9 +76,6 @@ h1 {
     width: 80%;   
 }
 
-/* .plant-img {
-    width: 25%;
-} */
 
 .img-only-100 {
     width: 100%; 
@@ -72,14 +87,18 @@ h1 {
    text-align: center;
    color: #133b3a;
    font-weight: bold;
+   border-style: solid;
+   border-radius: 5%;
+   border-width: 2pt;
+   border-color: #1a0707;
 }
+
 
 .linksbar {
     /* background-color: aqua; */
     height: 50px;
     display: flex;
     width: 500px;
-
     justify-content: space-between;
      align-items: center;
 }
